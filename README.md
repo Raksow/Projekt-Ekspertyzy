@@ -390,23 +390,17 @@ Rekordy zakwalifikowane jako **HIGH**.
 
 ## Wykres ciśnienia atmosferycznego
 
-*(wstaw wykres przedstawiający zmianę ciśnienia w czasie)*
-
 ![Pressure Trend](plots/pressure_over_time.png)
 
 ---
 
 ## Wykres zmian ciśnienia
 
-*(wstaw wykres przedstawiający `pressure_delta`)*
-
 ![Pressure Delta](plots/pressure_change.png)
 
 ---
 
 ## Rozkład klas ryzyka
-
-*(wykres kołowy lub słupkowy przedstawiający udział klas LOW, MEDIUM i HIGH)*
 
 ![Storm Risk Distribution](plots/storm_risk_dist.png)
 
