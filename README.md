@@ -1,4 +1,3 @@
-markdown
 # Pressure Drop Detection and Storm-Risk Expert System
 
 Projekt z przedmiotu **Autonomous Expert Systems and Data Exploration**.
