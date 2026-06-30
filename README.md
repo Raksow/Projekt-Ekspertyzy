@@ -7,13 +7,6 @@ Celem projektu jest analiza danych pogodowych pobieranych z REST API oraz wykryw
 
 ---
 
-## Autorzy
-
-- Aleksander Tomaszewski
-- Oskar Wędołowski
-
----
-
 ## Temat projektu
 
 **Project - Pressure Drop Detection and Storm-Risk Expert System**
@@ -440,4 +433,8 @@ Rekordy zakwalifikowane jako **HIGH**.
 
 ## Podsumowanie
 
-Projekt realizuje kompletny pipeline przetwarzania danych pogodowych: od pobrania danych z REST API, przez zapis danych surowych, czyszczenie i analizę, aż po klasyfikację ryzyka burzowego oraz zapis alertów. Najważniejszą częścią rozwiązania jest system ekspercki, który na podstawie spadku ciśnienia, wiatru, opadu i zachmurzenia wyznacza poziom ryzyka pogodowego.
+Projekt realizuje kompletny proces analizy danych pogodowych: od pobrania pomiarów z REST API, przez zapis danych surowych, oczyszczenie i przetworzenie danych, aż po ocenę ryzyka pogodowego oraz zapis alertów. Najważniejszym elementem rozwiązania jest system ekspercki, który na podstawie spadku ciśnienia, prędkości wiatru, opadu deszczu i zachmurzenia wyznacza poziom ryzyka burzowego.
+
+Zastosowane reguły pozwalają w prosty i czytelny sposób klasyfikować warunki pogodowe jako `LOW`, `MEDIUM` lub `HIGH`. Dzięki temu możliwe jest szybkie wykrycie sytuacji, w których kilka niekorzystnych czynników występuje jednocześnie, na przykład spadek ciśnienia połączony z silnym wiatrem, opadem i dużym zachmurzeniem.
+
+Wnioskiem z projektu jest to, że nawet prosty system oparty na regułach może być użyteczny do wstępnej oceny ryzyka pogodowego. Rozwiązanie jest przejrzyste, łatwe do modyfikacji i może zostać rozbudowane o kolejne stacje pomiarowe, automatyczne uruchamianie, powiadomienia o alertach lub dokładniejszą analizę historycznych trendów pogodowych.
